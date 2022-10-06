@@ -1,0 +1,9 @@
+{
+	"name": "ellenfactorydata",
+	"location": "japaneast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "24393d7f-725b-4336-b979-32d28ef7a7a1",
+		"tenantId": "b6e07a85-5741-4f05-b6ce-20e10b402b6f"
+	}
+}
