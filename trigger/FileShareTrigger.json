@@ -13,20 +13,11 @@
 		],
 		"type": "CustomEventsTrigger",
 		"typeProperties": {
-			"subjectEndsWith": "FromHub",
-			"subjectBeginsWith": "FromHub",
+			"subjectEndsWith": "",
+			"subjectBeginsWith": "eventhubs",
 			"scope": "/subscriptions/4025ff84-f3da-479b-a01f-5b4a58f0c0dd/resourceGroups/event_grid_and_adf/providers/Microsoft.EventGrid/topics/FileShareTopic",
 			"events": [
-				"FileShare"
-			],
-			"advancedFilters": [
-				{
-					"key": "operationName",
-					"operatorType": "StringContains",
-					"values": [
-						"CreateFile"
-					]
-				}
+				"CaptureFileCreated"
 			]
 		}
 	}
