@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "CustomEventTrigger"
+		},
+		"FileShareTrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/4025ff84-f3da-479b-a01f-5b4a58f0c0dd/resourceGroups/FileShareLogEvent/providers/Microsoft.EventGrid/topics/ShareCustomTopic"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
