@@ -14,10 +14,10 @@
 		"type": "CustomEventsTrigger",
 		"typeProperties": {
 			"subjectEndsWith": "",
-			"subjectBeginsWith": "eventhubs",
-			"scope": "/subscriptions/4025ff84-f3da-479b-a01f-5b4a58f0c0dd/resourceGroups/event_grid_and_adf/providers/Microsoft.EventGrid/topics/FileShareTopic",
+			"subjectBeginsWith": "StorageWrite",
+			"scope": "/subscriptions/4025ff84-f3da-479b-a01f-5b4a58f0c0dd/resourceGroups/FileShareLogEvent/providers/Microsoft.EventGrid/topics/ShareCustomTopic",
 			"events": [
-				"CaptureFileCreated"
+				"CreateFile"
 			]
 		}
 	}
