@@ -7,7 +7,7 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "CustomEventTrigger"
 		},
-		"FileShareTrigger_properties_typeProperties_scope": {
+		"CSTtrigger1_properties_typeProperties_scope": {
 			"type": "string",
 			"defaultValue": "/subscriptions/4025ff84-f3da-479b-a01f-5b4a58f0c0dd/resourceGroups/FileShareLogEvent/providers/Microsoft.EventGrid/topics/ShareCustomTopic"
 		},
@@ -38,8 +38,8 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"FileShareTrigger_properties_typeProperties_scope": {
-						"value": "[parameters('FileShareTrigger_properties_typeProperties_scope')]"
+					"CSTtrigger1_properties_typeProperties_scope": {
+						"value": "[parameters('CSTtrigger1_properties_typeProperties_scope')]"
 					}
 				}
 			},
