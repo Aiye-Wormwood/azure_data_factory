@@ -8,13 +8,16 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
-					"variableName": "A",
+					"variableName": "B",
 					"value": "A\nB\nC"
 				}
 			}
 		],
 		"variables": {
 			"A": {
+				"type": "Array"
+			},
+			"B": {
 				"type": "Array"
 			}
 		},
