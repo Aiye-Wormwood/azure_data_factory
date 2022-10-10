@@ -1,0 +1,24 @@
+{
+	"name": "CSTtrigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "TCSPipeline",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "CustomEventsTrigger",
+		"typeProperties": {
+			"subjectEndsWith": "",
+			"subjectBeginsWith": "StorageWrite",
+			"scope": "/subscriptions/4025ff84-f3da-479b-a01f-5b4a58f0c0dd/resourceGroups/FileShareLogEvent/providers/Microsoft.EventGrid/topics/ShareCustomTopic",
+			"events": [
+				"CreateFile"
+			]
+		}
+	}
+}
